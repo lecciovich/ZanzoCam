@@ -1,0 +1,20 @@
+<style global lang="postcss">
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+	@layer base {
+		@font-face {
+			font-family: 'Raleway';
+			font-style: normal;
+			font-weight: 400;
+			src: url('fonts/raleway-v18-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+			src: local('Raleway'),
+				url('fonts/raleway-v18-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('fonts/raleway-v18-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+				url('fonts/raleway-v18-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+				url('fonts/raleway-v18-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+				url('fonts/raleway-v18-latin-ext_latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+			}
+		}
+</style>
